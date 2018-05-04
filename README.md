@@ -31,7 +31,11 @@ This will install the following files:
 
 - nvmed_admin in /usr/local/bin
 
-To load the NVMeDirect module into the kernel,
+Generate module dependencies:-
+
+    $ sudo depmod -a
+
+To load the NVMeDirect module into the kernel:-
 
     $ sudo modprobe nvmed
 
